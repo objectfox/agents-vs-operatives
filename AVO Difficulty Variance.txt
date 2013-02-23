@@ -1,0 +1,12 @@
+Target Difficulty For Mission
+
+70% chance of success with low average items (just using rewards and mission items given by default on the main path)
+
+80% chance of success with medium average items (using the best mission items and bying better ones that given off the main path)
+
+85% chance of mission success with high average items (using items given by team mates that are optimized for your level)
+
+90% chance of mission success with medium average items and team support
+
+95% chance of mission success with high average items and team support
+

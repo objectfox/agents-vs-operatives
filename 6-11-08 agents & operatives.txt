@@ -1,0 +1,93 @@
+agents vs operatives
+
+facebook app, eventually iphone app
+
+
+players start out able to create an agent and an operative
+
+agents = good
+operatives = bad
+
+players start out with access to a police scanner and a newspaper
+
+on the heartbeat there are new 'local' missions defined by the geographic area the user sets themselves.  scanner 'quick' missions are shorter form but only available to the first agent and operative to start them
+
+newspaper missions are longer form and are available for everyone for that time period
+
+clock follows real time clock
+
+agents/operatives can be notified of new scanner missions by email when they are posted
+
+we'll grow locations as we grow our user base.  start off with new york, expand to chicago, los angeles, san francisco, seattle, washington dc, miami.  go international once we open up higher levels
+
+players have cash, gear and cred.  cred = exp, exp used to level to increase stats.  some items require a specific level to use
+
+players can only have x items equipped at once, can sell and shop for items on the global buy-o-matic
+
+missions take the form of fights and skill tests.  missions are created dynamicly when a user starts it.  completing the missions results in payment of cash and receipt of one or more items.
+
+missions take a branching tree approach such as:
+
+mission: protect the jewel of arabia
+
+brief: interpol has receieved a transmission that the famous jewel of arabia, on display at the city museum, is going to be stolen tonight by agents of eevil.  get to the museum and rescue that jewel, lest it fall into the wrong hands!
+
+arrive a museum
+
+      |
+      |----------- sneak around back
+      |
+   bust in
+   front doors
+
+      |
+      | 
+    
+   fight x goons
+   guarding lobby
+   
+      |
+      |
+      
+   the doors to the
+   display room are closed!
+   
+      |
+      |--------------- pick lock
+                           |
+   bash doors              |
+      |                    |
+   alarms, more         fewer guards
+   guards                to fight
+      |
+      
+   mini-boss battle
+   
+      |
+      
+   rescue diamond
+   
+
+get cred for completing mission, not fighting more baddies
+
+mini-bosses drop usable items and equipable items
+
+eventually players level up enough to get a new place and create a 'team'
+
+teams can take on group missions, but only if all of the team members finish the mission within the window.  group missions supply better gear to everyone
+
+low level teams include only one each of the 3 player types
+
+muscle (fighter), hacker (mage) and shadows (thief)
+
+as the team gains experience it can add additional slots
+
+eventually we add team vs team pvp as an opional feature.  you'd have to list yourself, become a 'named team' and then you'd be able to fight other teams.  that's a phase 2 thing, though.
+
+I like the idea of becoming a 'boss' of your team and having global level activities.  maybe once you're at a certain level and are set as an administrator of a team of a certain size, you can use team funds to fund missions for low level characters.  that way you get the diamond or whatever (components to, say, make super weapons or defenses for your lair/base) and the low level player gets the equipment.  that makes a nice circle.
+
+
+
+
+
+

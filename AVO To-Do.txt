@@ -1,0 +1,9 @@
+* Add a single City placeholder (Capitol City) and refactor adlibs and instance areas to relate
+* Add login and user/player management
+* Add player model, class model and implement statistics
+* Add Finale Rooms
+* Add mission adlib for title/intro text related to instance adlib
+* Add enemies
+* Add challenges (initial challenges: security system, sweet talk shortcut)
+* Add equipment (weapons and armor initially)
+

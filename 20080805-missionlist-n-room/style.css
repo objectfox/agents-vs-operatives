@@ -1,0 +1,155 @@
+body {
+	background: #ffffff;
+	font-family: Tahoma, Verdana, san-serif;
+	font-size: .85em;
+	margin: 0;
+	padding: 0;
+	}
+
+p	{
+	padding: 0;
+	margin: 0;
+	}
+	
+br {
+	clear: both;
+	}
+	
+#fbcontainer {
+	margin: 50px 0 0 50px;
+	padding: 0;
+	width: 760px;
+	border: 1px solid #000;
+	}
+	
+#avoapphead {
+	background-color: grey;
+	padding: 2px;
+	}
+	
+#avologospot {
+	font-weight: bold;
+	font-size: 1.3em;
+	float: left;
+	}
+
+#avocharswitch {
+	float: right;
+	}
+
+#avoappsubhead {
+	background-color: #eee;
+	padding: 2px;
+	font-size: 1.1em;
+	}
+
+#avocharblock {
+	width: 160px;
+	margin: 20px 0 0 20px;
+	float: left;
+	}
+
+#avocharblock {
+	clear: both;
+	}
+	
+#avocharblock #avocharport {
+	margin: 0;
+	padding: 0;
+	}
+
+#avocharblock h3 {
+	margin: 3px 0 .8em 0;
+	padding: 0;
+	font-size: 1em;
+	font-weight: bold;
+	}
+
+#avocharblock h4 {
+	margin: 3px 0 5px 0;
+	padding: 0;
+	font-size: .9em;
+	}
+
+#avocharblock #avocharstate {
+	margin: 6px 0 0 0;
+	font-size: .85em;
+	float: left;
+	}
+
+#avocharblock .avocharhp {
+	margin: 0 0 0 0;
+	padding: 5px;
+	background: green;
+	font-size: 1em;
+	float: right;
+	}
+	
+#avocharblock .avocharstat {
+	float: left;
+	font-weight: bold;
+	font-size: 1em;
+	width: 80px;
+	line-height: 1.6em;
+	}
+	
+#avocharblock .avochariteml {
+	margin: 0 0 10px 0;
+	float: left;
+	font-size: .9em;
+	width: 70px;
+	line-height: 1em;
+	}
+	
+#avocharblock .avocharitemr {
+	margin: 0 0 10px 0;
+	float: right;
+	font-size: .9em;
+	width: 70px;
+	line-height: 1em;
+	}
+	
+#avocharblock .avochariteml img, #avocharblock .avocharitemr img {
+	margin: 0 0 3px 0;	
+	}
+	
+#avoroomblock {
+	width: 500px;
+	margin: 20px 0 0 30px;
+	float: left;
+	}
+	
+#avoroomblock h3 {
+	font-size: 1.1em;
+	margin-top: 0;
+	margin-bottom: 1em;
+	}
+	
+#avoroomblock h4 {
+	font-size: 1.0em;
+	margin-top: 0;
+	margin-bottom: 1em;
+	}
+
+#avoroomblock p {
+	line-height: 1.2em;
+	margin-bottom: 0;
+	}
+
+#avoroomdesc {
+	margin: 0 5px 1em 5px;
+	}
+	
+.avoroomaction {
+	margin: 5px 0 10px 0;
+	}
+	
+.avoroomaction img {
+	float: left;
+	margin: 0 10px 0 0;
+	}
+
+.avoroomaction h5 {
+	margin: 0 0 5px 0;
+	}
+

@@ -1,0 +1,164 @@
+dungeons
+--------
+
+date - the encoded data for the in-progress mission dungeon
+
+rooms - loading dock
+-----
+
+name - name of the room to be shown in room page
+day_description - a paragraph or two description of the room during the day
+night_description - a paragraph or two description of the room during the 
+max_count - maximum number of rooms in a dungeon
+sector_id - sector the room appears in
+is_entry - is the room only the first room in a dungeon
+is_single_length_fork - is the room a single length fork room (closet)
+is_finale - is the room an end room for the dungeon
+has_adlib - does this room have a variable for substituting adlibs
+
+sectors - warehouse
+-------
+
+name - name of the sector
+
+cities - captial city
+------
+
+name - name of the city
+description - description of the city
+tz_offset - offset from UTC/GMT + or - integer
+
+missions - agent bovine in the attack on the fish warehouse
+--------
+
+name - title of the mission
+sectorlib_id - sectorlib the mission takes place in
+player_id - player the mission is assigned to
+dungeon_id - dungeon the mission data is stored in
+expires_at - when the mission expires
+is_completed - mission has been completed by the player
+is_scored - mission has been scored by the system
+was_success - did the player 'win', nil, 0 or 1
+
+sectorlibs - fish warehouse
+----------
+
+name - name of the sectorlib
+
+city_sectors - capitol city warehouse
+------------
+
+city_id - city the sector exists in
+sector_id - sector that exists in the city
+
+city_sectors_enemies - capitol city warehouse thug
+--------------------
+
+city_sector_id - city/sector the enemy appears in
+enemy_id - the enemy
+
+players - agent bovine
+-------
+
+name - player name
+user_id - user id of the owning login
+class_id - class of the player
+max_hp - maximum healed hit points (integer)
+current_hp - current hit points of the player (integer unsigned)
+hp_last_updated_at - timestamp of the last time the players hit points were bumped
+experience - players total xp (unsigned integer)
+
+roomlibs - pile of fish hooks
+--------
+
+name - the subbed part of the room adlib
+description - not used presently
+sectorlib_id - the sectorlib the adlib appears in
+is_entry - is an adlib that only shows up in the entry room
+
+briefings - something's fishy down at the fish warehouse
+---------
+
+title - the title of the mission
+description - the description of the mission to be undertaken
+sectorlib_id - the sectorlib the mission relates to.  can be multiple briefings per sectorlib
+
+player_items - agent bovine's scumbuster vac
+------------
+
+player_id - player owner
+item_id - item base
+level - the level of the item (multiplyers to stats)
+uses_remaining - how many uses are left of the item, integer
+
+classes - muscle
+-------
+
+title - title of the class
+description - some flowery text about how awesome they are
+
+enemies - Thug
+-------
+
+name - name of the enemy
+description - some text description of the enemy.  may not show yet
+is_evil - boolean if is evil enemy
+is_male - is the enemy a dude?
+is_female - is the enemy a chick?  if neither, enemy is neuter, like a robot
+attack - attack modifier (int unsigned)
+defense - defense modifier (int unsigned)
+wit - social defense modifier (int unsigned)
+max_hp - maximum hp of the enemy at spawn
+min_level - minimum level the enemy will appear against
+max_level - maximum level the enemy will appear against
+
+attacks - Punches You
+-------
+attack_text - text shown when enemy attacks
+hit_text - text shown when enemy hits
+miss_text - text shown when enemy misses
+
+enemy_attacks
+-------------
+
+enemy_id - the enemy that has the attack
+attack_id - the attack the enemy has
+
+items - Scumbuster Vac
+-----
+
+name - name of the item
+description - flowery text description
+max_uses - 0 if non-use based (baseball bat), otherwise the maximum number of uses you get (6 bullets, 12 bullets)
+is_armor - can the item be worn to protect (only one armor per player equipped inventory)
+is_weapon - can be used to attack
+min_level - minimum level that the item is spawned for
+max_level - maximum level the item is spawned for
+
+users
+-----
+
+email - lets log in by email for now
+password - we can use a simple authenticated plugin for this for now
+created_on - when the user was created
+is_admin - is the user an admin
+last_loggedin_at - when did the user last login
+is_active - the user hasn't been deactivated
+
+challenges
+----------
+
+name - name of the challenge
+description - longer description of the challenge
+min_level - minimum level the challenge appears for
+max_level - maximum level the challenge appears for
+defense - defense modifier for the challenge
+
+shortcuts
+---------
+
+name
+description
+min_level
+max_level
+defense

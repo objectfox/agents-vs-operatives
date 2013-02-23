@@ -1,0 +1,39 @@
+Level Progression
+
+(2 + 1/2 player level) missions per level
+
+Trainee
+1 - 3 missions
+2 - 4 missions
+Junior Agent <- Can Join Team/Create Team
+3 - 4 missions
+4 - 5 missions
+5 - 5 missions
+6 - 6 missions
+Field Agent <- Can Undertake Missions in other Cities
+7 - 6 missions
+8 - 7 missions
+9 - 7 missions
+10 - 8 missions
+11 - 8 missions
+12 - 9 missions
+Special Agent <- 
+13 - 9 missions
+14 - 10 missions
+15 - 10 missions
+16 - 11 missions
+17 - 11 missions
+18 - 12 missions
+19 - 12 missions
+20 - 13 missions
+21 - 13 missions
+Elite Agent <- 
+22 - 14 missions
+23 - 14 missions
+24 - 15 missions
+25 - 15 missions
+26 - 16 missions
+27 - 16 missions
+28 - 17 missions
+29 - 17 missions
+30 - 18 missions

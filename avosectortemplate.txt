@@ -1,0 +1,34 @@
+----------- Sector Description -----------
+Title: Warehouse
+
+
+----------- Room Description (Closet) -----------
+Title: Closet (Single Length Fork Room w/adlib)
+Desc:
+
+This closet is filled with brooms, mops and buckets. It’s cramped, but not as cramped as you'd imagine.  In the corner you see %s.
+
+Night Desc:
+
+<none>
+
+----------- Room Description (Break Room) -----------
+Title: Break Room
+Desc:
+
+Packets of sugar and scattered coffee grounds cover the break rooms counters. The coffee maker gurgles to itself and a hot plate sizzles, empty. There’s a small television in front of a few plastic chairs, showing some uninteresting news report.
+
+Night Desc:
+
+Packets of sugar and scattered coffee grounds cover the break rooms counters. The coffee maker is cold but hasn’t been emptied. There’s a silent small television in front of a few plastic chairs.
+
+----------- Adlib (Pancake) -----------
+Mission Briefing: Something sticky's going down at the pancake warehouse.
+Mission Name: Into the Batter
+Entry: a stack of half-eaten pancakes
+Room: a spatula
+Room: a puddle of batter
+Room: a sticky puddle of syrup
+
+
+
